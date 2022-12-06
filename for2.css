@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+div{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(14, 7, 109);
+  }
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    background-image: url("https://png.pngtree.com/background/20210710/original/pngtree-vector-black-disco-background-with-abstract-geometric-pattern-of-picture-image_984634.jpg");
+  
+  
+      
+    }
+  
+.container {
+      /*padding-top: 200px;
+      height: 100vh;
+      width: 100vw;
+      justify-content: left;*/
+      max-width: 700px;
+      width: 50%;
+      height: 70%;
+      padding: 25px 35px;
+      border-radius: 9px;
+      background: linear-gradient(45deg, #1529d8, #fffde7);
+      padding-top: 200px;
+      margin-top: 70px;
+  
+      
+      
+    }  
+.container .titulo{
+    font-size: 20px;
+    color: rgb(3, 41, 33);
+}
+.container .letra{
+    font-size: 18px;
+    color: rgb(33, 5, 78);
+    text-decoration: none;
+}
+.button{
+  background-color: green;
+}        

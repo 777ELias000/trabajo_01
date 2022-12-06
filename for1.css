@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+div{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(239, 238, 245);
+  }
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  background-image: url("https://previews.123rf.com/images/vvvisual/vvvisual1606/vvvisual160600187/59141518-fondo-abstracto-hecho-con-diamantes-o-pedrer%C3%ADa-s%C3%ADmbolo-creativo-abstracto-sobre-fondo-negro-para-ele.jpg");
+
+
+    
+  }
+
+.container {
+    /*padding-top: 200px;
+    height: 100vh;
+    width: 100vw;
+    justify-content: left;*/
+    max-width: 700px;
+    width: 50%;
+    height: 70%;
+    padding: 25px 35px;
+    border-radius: 9px;
+    background: linear-gradient(45deg, #7fc7e9, #fffde7);
+    padding-top: 200px;
+    margin-top: 70px;
+
+    
+    
+  }  
+.container .letra{
+    font-size: 20px;
+    color: rgb(1, 15, 4);
+    text-decoration: none;
+}
+.container .titulo{
+    font-size: 20px;
+    color: rgb(3, 26, 21);
+}
+.container .regris{
+    font-size: 15px;
+    color: rgb(9, 16, 121);
+    text-decoration: none;
+}
+.container .letra1{
+    font-size: 20px;
+    color: rgb(65, 219, 219);
+    text-decoration: none;
+}
